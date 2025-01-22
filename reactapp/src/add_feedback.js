@@ -40,7 +40,7 @@ const Addfeedback = () => {
   };
 
   const save = () => {
-    let url = "https://feedback-portal-backend-l7z5.onrender.com/savereview";
+    let url = "https://feedback-portal-backend-it7e.onrender.com/savereview";
     let Author = localStorage.getItem("fullname");
     
     let newreview = {
@@ -66,7 +66,7 @@ const Addfeedback = () => {
         pickcategory("");
         pickdescription("");
         pickrating("");
-        window.location.href = "https://feedback-portal-t6lj.onrender.com/#/";
+        window.location.href = "https://feedback-portal-gp5t.onrender.com/#/";
         window.location.reload(); // reload
       });
   };
