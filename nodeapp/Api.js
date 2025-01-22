@@ -137,6 +137,6 @@ app.post("/savereview", (req, res) => {
 
 });
 
-// app.listen(5556, function () {
-//   console.log("Server is started... on 5556 port number");
-// });
+app.listen(5556, function () {
+  console.log("Server is started... on 5556 port number");
+});
