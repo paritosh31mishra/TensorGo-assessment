@@ -15,7 +15,7 @@ const cors = require('cors'); // calling cross origin library
 
 const allowedOrigins = [
   "http://localhost:3000", // Local development
-  "https://feedback-portal-t6lj.onrender.com" // Hosted frontend
+  "https://feedback-portal-gp5t.onrender.com" // Hosted frontend
 ];
 
 app.use(
@@ -137,6 +137,6 @@ app.post("/savereview", (req, res) => {
 
 });
 
-app.listen(5556, function () {
-  console.log("Server is started... on 5556 port number");
-});
+// app.listen(5556, function () {
+//   console.log("Server is started... on 5556 port number");
+// });
