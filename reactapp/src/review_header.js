@@ -8,7 +8,7 @@ const Reviewheader = () =>{
   const logout = () => {
     googleLogout(); // Perform Google logout
     window.localStorage.clear(); // Clear localStorage
-    window.location.href = "https://feedback-portal-t6lj.onrender.com/#/"; // Redirect to dashboard
+    window.location.href = "https://feedback-portal-gp5t.onrender.com/#/"; // Redirect to dashboard
     window.location.reload(); // Reload the app
   }
   
