@@ -6,7 +6,7 @@ const Viewfeedback = () => {
 
 
   const getAllreview = () => {
-    fetch("https://feedback-portal-backend-l7z5.onrender.com/getreviews?category=all")
+    fetch("https://feedback-portal-backend-it7e.onrender.com/getreviews?category=all")
       .then((response) => response.json())
       .then((reviewarray) => {
         updatecategory(reviewarray);
@@ -15,7 +15,7 @@ const Viewfeedback = () => {
 
 
   const getfeature = () => {
-    fetch("https://feedback-portal-backend-l7z5.onrender.com/getreviews?category=Feature")
+    fetch("https://feedback-portal-backend-it7e.onrender.com/getreviews?category=Feature")
     .then((response) => response.json())
     .then((reviewarray) => {
       updatecategory(reviewarray);
@@ -23,7 +23,7 @@ const Viewfeedback = () => {
   };
 
   const getpricing = () => {
-    fetch("https://feedback-portal-backend-l7z5.onrender.com/getreviews?category=Pricing")
+    fetch("https://feedback-portal-backend-it7e.onrender.com/getreviews?category=Pricing")
     .then((response) => response.json())
     .then((reviewarray) => {
       updatecategory(reviewarray);
@@ -31,7 +31,7 @@ const Viewfeedback = () => {
   };
 
   const getusability = () => {
-    fetch("https://feedback-portal-backend-l7z5.onrender.com/getreviews?category=Usability")
+    fetch("https://feedback-portal-backend-it7e.onrender.com/getreviews?category=Usability")
     .then((response) => response.json())
     .then((reviewarray) => {
       updatecategory(reviewarray);
